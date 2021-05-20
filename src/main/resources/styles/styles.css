@@ -10,10 +10,12 @@
   margin: 10px 0;
   font-weight: bold;
   cursor: pointer;
-  transition: color 0.5s ease 1s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .btn:hover {
   background-color: burlywood;
-  color: aliceblue;
+  color: white;
 }
+/*# sourceMappingURL=styles.css.map */
