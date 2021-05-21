@@ -1,4 +1,4 @@
-package table_teniss.domain.repository.model;
+package table_teniss.domain.repository.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -25,13 +25,7 @@ public class User {
     @Column(name = "password", nullable = false)
     private String password;
 
-    @Column(name = "mail", nullable = false)
+    @Column(name = "email", nullable = false)
     private String mail;
-
-    @Column(name = "sex", nullable = false)
-    private int sex = 0;
-
-    @Column(name = "is_valid", nullable = false)
-    private Boolean isValid = false;
 
 }
