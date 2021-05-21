@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "order_categories")
+@Table(name = "user_matchies")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

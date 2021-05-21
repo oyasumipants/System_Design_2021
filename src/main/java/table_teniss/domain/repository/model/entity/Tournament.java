@@ -12,7 +12,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "matches")
+@Table(name = "tournaments")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
