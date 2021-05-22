@@ -10,6 +10,7 @@
 <body>
     <div id="container">
         <button class="btn">Button</button>
+        <button class="btn float">Button</button>
     </div>
 </body>
 </html>
