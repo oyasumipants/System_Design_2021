@@ -5,7 +5,7 @@
 .btn {
   background-color: white;
   color: black;
-  border: 1px dotted burlywood;
+  border: 1px dotted #deb887;
   padding: 10px 40px;
   margin: 10px 0;
   font-weight: bold;
@@ -14,8 +14,17 @@
   transition: all 0.5s;
 }
 
-.btn:hover {
-  background-color: burlywood;
-  color: white;
+.btn.float:hover {
+  -webkit-box-shadow: 3px 3px 0px 0px rgba(222, 184, 135, 0.5);
+          box-shadow: 3px 3px 0px 0px rgba(222, 184, 135, 0.5);
+}
+
+.rect {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: orangered;
+  -webkit-transform: translate(-50px, 50px);
+          transform: translate(-50px, 50px);
 }
 /*# sourceMappingURL=styles.css.map */

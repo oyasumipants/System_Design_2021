@@ -1,6 +1,6 @@
 $cWhite: white;
 $cBlack: black;
-$cBurlywood: burlywood;
+$cBurlywood: #deb887;
 
 #container {
   text-align: center;
@@ -16,10 +16,24 @@ $cBurlywood: burlywood;
   cursor: pointer;
   transition: all 0.5s;
 
+  &.float {
+    &:hover {
+      box-shadow: 3px 3px 0px 0px rgba(222, 184, 135, 0.5);
+    }
+  }
+
   // Scss では要素の内包ができ、 & は 親の要素を示している
   // 半角スペースを開けられる場合は & は保存できる
-  &:hover {
-    background-color: $cBurlywood;
-    color: $cWhite;
-  }
+  // &:hover {
+  //   background-color: $cBurlywood;
+  //   color: $cWhite;
+  // }
+}
+
+.rect {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: orangered;
+  transform: translate(-50px, 50px);
 }
