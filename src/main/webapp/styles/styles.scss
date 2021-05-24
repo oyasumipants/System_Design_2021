@@ -29,3 +29,11 @@ $cBurlywood: #deb887;
   //   color: $cWhite;
   // }
 }
+
+.rect {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: orangered;
+  transform: translate(-50px, 50px);
+}

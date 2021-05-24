@@ -11,6 +11,7 @@
     <div id="container">
         <button class="btn">Button</button>
         <button class="btn float">Button</button>
+        <div class="rect">a</div>
     </div>
 </body>
 </html>
